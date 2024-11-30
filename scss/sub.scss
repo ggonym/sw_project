@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@import "./reset.scss";
+@import "../font/pretendardvariable.css";
+
+
+
+
+/*===== member: login 로그인 페이지=====*/
+body {
+  padding: 0 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+
+ &:hover {
+    background-color: #0056b3;
+  }
+  
+}
+
+
+
+
+.sns-login {
+  margin: 20px 0;
+  #kakaoLogin {
+    background-color: #ffe300; 
+
+  }
+  #googleLogin {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  #naverLogin {
+    background-color: #03cf5d ;
+  }
+
+}
+
+.sns-login button {
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  color:#222;
+}
+
+
+.links {
+  margin-top: 15px;
+  a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+   &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/*===== login 로그인 페이지 끝=====*/
+
+
+/*===== member: signUp 로그인 페이지=====*/
+#signUpForm {
+  max-width: 500px;
+  .signUp-condtion {
+    
+    ul {
+      padding: 10px 0;
+      li{
+        margin-bottom: 8px;
+        font-size: 14px;
+        text-align: left;    
+        color: #ccc;    
+        svg {
+        margin-right: 4px;  
+        vertical-align: middle;
+         
+        }
+      }
+    }
+  }
+  button {
+    margin-bottom: 40px;
+  }  
+}
+.sns-signUp-title {
+  font-size: 13px;
+  padding-bottom: 20px;
+  color: #ccc;
+  // &::before{
+  //   flex: 1 1 100%;
+  //   content: "";
+  //   display: block;
+  //   height: 1px;
+  //   background-color: rgb(233, 236, 239);
+  // }
+  // &::after {
+  //   flex: 1 1 100%;
+  //   content: "";
+  //   display: block;
+  //   height: 1px;
+  //   background-color: rgb(233, 236, 239);
+  // }
+}
+.sns-signUp {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  button {
+    display: inline-block;
+    width: 48px;
+  }
+  #kakaoLogin {
+    background-color: #ffd43b; 
+  }
+  #googleLogin {
+    background-color: #f1f3f5 ;
+  }
+}
