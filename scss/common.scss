@@ -13,7 +13,8 @@ body, html {
   max-width: 700px;
   margin: 0 auto;
   height: 100%;
-  background-color: #fff;
+  // background-color: #fff;
+  background-color: #0E0F17;//#26262C;;
   
   .wrap-inner {
     max-width: 700px;
@@ -28,7 +29,8 @@ body, html {
   padding-bottom: 10px;
   font-size: 2rem;
   font-weight: 600;
-  color: #26262C;
+  // color: #26262C;
+  color: #fff;
 }
 #header {
   
@@ -39,7 +41,7 @@ body, html {
   align-items: center;
 
   padding: 0 20px;
-  background-color: #fff;
+  background-color: #0E0F17;
   .right {
     height: 100%;
     display: flex;
@@ -55,9 +57,10 @@ body, html {
       font-weight: 500;
       line-height: normal;
       letter-spacing: 0em;
-      color: #4C4C57;
+      // color: #4C4C57;
+      color: #ffffff85;
       &:hover {
-       color: #3578FF;
+       color: #fff;
       }
      
     }
@@ -131,7 +134,7 @@ body, html {
         overflow-x: scroll;
       white-space: nowrap; 
       scrollbar-width: none;     
-      
+     
 
       
         ul {
@@ -154,6 +157,7 @@ body, html {
       
         }
       }
+      
     }
   }
 }
@@ -191,18 +195,21 @@ body, html {
     gap: 6px;
     li {
       padding: 8px 10px;
-      border: 1px solid #ccc;
+      border: 1px solid rgba($color: #fff, $alpha: 0.2);
       border-radius: 60px;
       a {
         font-size: 14px;
-        color: #222;
+        color: rgba($color: #fff, $alpha: 0.2);
       }
       &:first-child {
         
-        background-color: #222;
+        background-color: #fff;
         a {
-          color: #fff;
+          color: #222;
         }
+      }
+      &:hover {
+        border: 1px solid rgba($color: #fff, $alpha: 0.4);
       }
     }
   }
@@ -273,6 +280,7 @@ body, html {
               margin-top: 6px;
               font-size: 16px;
               font-weight: 700;
+              color: #fff;
             }
           }
           .popul-move {
@@ -348,12 +356,13 @@ body, html {
   }
   .banner-wrap {
     height: 64px;
-    background-color: #D9D9DE;
+    background-color: #3578FF;//#D9D9DE;
     border-radius: 10px;
     p{
       font-size: 1.8rem;
       text-align: center;
       line-height: 64px;
+      color: #fff;
       
     }
     
