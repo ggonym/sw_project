@@ -80,3 +80,18 @@ img {
 a {
   text-decoration: none;
 }
+
+a:hover {
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 12px; /* 버튼 크기 조정 */
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px; /* 버튼 폰트 크기 조정 */
+}

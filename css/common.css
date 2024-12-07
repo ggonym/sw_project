@@ -81,6 +81,21 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 12px; /* 버튼 크기 조정 */
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px; /* 버튼 폰트 크기 조정 */
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -94,7 +109,7 @@ body, html {
   max-width: 700px;
   margin: 0 auto;
   height: 100%;
-  background-color: #fff;
+  background-color: #0E0F17;
 }
 #wrap .wrap-inner {
   max-width: 700px;
@@ -107,7 +122,7 @@ body, html {
   padding-bottom: 10px;
   font-size: 2rem;
   font-weight: 600;
-  color: #26262C;
+  color: #fff;
 }
 
 #header {
@@ -117,7 +132,7 @@ body, html {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background-color: #fff;
+  background-color: #0E0F17;
 }
 #header .right {
   height: 100%;
@@ -133,10 +148,10 @@ body, html {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0em;
-  color: #4C4C57;
+  color: rgba(255, 255, 255, 0.5215686275);
 }
 #header .right .login:hover {
-  color: #3578FF;
+  color: #fff;
 }
 #header .right .alram {
   width: 20px;
@@ -218,11 +233,8 @@ body, html {
 
 /*footer*/
 #footer {
-  max-width: 700px;
-  margin: 0 auto; 
-  /* margin-top: 60px; */
+  margin-top: 60px;
   padding: 40px 20px;
-  box-sizing: border-box;
   background-color: #131314;
 }
 #footer .foot-util {
@@ -253,18 +265,21 @@ body, html {
 }
 #head-tab .tab-warp li {
   padding: 8px 10px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 60px;
 }
 #head-tab .tab-warp li a {
   font-size: 14px;
-  color: #222;
+  color: rgba(255, 255, 255, 0.2);
 }
 #head-tab .tab-warp li:first-child {
-  background-color: #222;
+  background-color: #fff;
 }
 #head-tab .tab-warp li:first-child a {
-  color: #fff;
+  color: #222;
+}
+#head-tab .tab-warp li:hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 /*인기좋은작품*/
@@ -330,6 +345,7 @@ body, html {
   margin-top: 6px;
   font-size: 16px;
   font-weight: 700;
+  color: #fff;
 }
 #popular .popular-box .popul-list li .popul-flex .popul-move {
   font-size: 14px;
@@ -395,11 +411,12 @@ body, html {
 }
 #banner .banner-wrap {
   height: 64px;
-  background-color: #D9D9DE;
+  background-color: #3578FF;
   border-radius: 10px;
 }
 #banner .banner-wrap p {
   font-size: 1.8rem;
   text-align: center;
   line-height: 64px;
+  color: #fff;
 }
