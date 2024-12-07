@@ -369,3 +369,101 @@ body, html {
   }
  
 }
+
+
+/*인기 숏츠*/
+#shorts-section {
+  padding: 0 20px;
+  margin-top: 40px;
+
+  .new-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+   
+    .new-more {
+      font-size: 14px;
+      color: #3578FF;
+    }
+
+  }
+
+  .short-box {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    .play-short {
+      width: 180px;
+      flex-basis: 180px;
+      video {
+       border-radius: 8px;
+       margin-bottom: 10px;
+        
+      }
+
+    }
+  }
+}
+
+
+
+/*고객센터*/
+#help-container{
+  width: 100%;  
+  .help-header {
+    padding: 20px 0;
+    h2 {
+      
+      font-size: 18px;
+      color: #fff;
+      padding: 20px  0;
+    }
+    .help-nav {
+      display: flex;
+      border-bottom: 1px solid #ffffff46;
+      margin-top: 20px;
+      padding-bottom: 16px;
+      li {
+        a {
+          padding: 5px 10px 12px;
+          color: #ffffff46;
+          font-size: 14px;
+          &:hover {
+            color: #fff;
+          }
+          &:active {
+            border-bottom: 2px solid #fff;
+          }
+        }
+       
+      }
+    }
+  }
+  .qna-group{
+    ul{
+      li {
+        padding: 10px 0;
+        transition: transform 0.3s ease;
+        a {
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 20px;
+          font-size: 16px;
+          color: #fff;
+       
+        }
+        .answer {
+          display: none;
+          padding: 20px 20px;
+          background-color: #ffffff0e;
+          font-size: 14px;
+          color: #ffffffad;
+        }
+      }
+    }
+  }
+
+
+}
