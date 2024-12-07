@@ -420,3 +420,81 @@ body, html {
   line-height: 64px;
   color: #fff;
 }
+
+/*인기 숏츠*/
+#shorts-section {
+  padding: 0 20px;
+  margin-top: 40px;
+}
+#shorts-section .new-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#shorts-section .new-title .new-more {
+  font-size: 14px;
+  color: #3578FF;
+}
+#shorts-section .short-box {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+}
+#shorts-section .short-box .play-short {
+  width: 180px;
+  flex-basis: 180px;
+}
+#shorts-section .short-box .play-short video {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/*고객센터*/
+#help-container {
+  width: 100%;
+}
+#help-container .help-header {
+  padding: 20px 0;
+}
+#help-container .help-header h2 {
+  font-size: 18px;
+  color: #fff;
+  padding: 20px 0;
+}
+#help-container .help-header .help-nav {
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2745098039);
+  margin-top: 20px;
+  padding-bottom: 16px;
+}
+#help-container .help-header .help-nav li a {
+  padding: 5px 10px 12px;
+  color: rgba(255, 255, 255, 0.2745098039);
+  font-size: 14px;
+}
+#help-container .help-header .help-nav li a:hover {
+  color: #fff;
+}
+#help-container .help-header .help-nav li a:active {
+  border-bottom: 2px solid #fff;
+}
+#help-container .qna-group ul li {
+  padding: 10px 0;
+  transition: transform 0.3s ease;
+}
+#help-container .qna-group ul li a {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+#help-container .qna-group ul li .answer {
+  display: none;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.0549019608);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6784313725);
+}
